@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    background: #212126;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    animation: transitionIn 0.75s;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+    animation: transitionIn 0.75s;
+}
+
+nav .thumbnail-pfp{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+
+}
+
+nav .logo{
+    width: 500px;
+    
+}
+
+
+.info{
+    display: flex;
+    
+    padding: 10px 15%;
+    animation: transitionIn 0.75s;
+    margin-top: -170px;
+}
+
+.crew{
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    margin-top: -14%;
+    margin-left: 70%;
+    animation: transitionIn 0.75s;
+}
+
+.fnd{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 61.5%;
+    animation: transitionIn 0.75s;
+    list-style: none;
+}
+
+.nyh{
+    
+
+    margin-left: 62.8%;
+    animation: transitionIn 0.75s;
+    float: left;
+}
+
+.nyh h2{
+    font-size: 15px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 125px;
+    margin: 10px;
+    
+}
+
+.oxy{
+    
+
+    margin-left: 69.8%;
+    animation: transitionIn 0.75s;
+    
+
+}
+
+.oxy h2{
+    font-size: 15px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 125px;
+    margin: 10px;
+    
+}
+
+.beam{
+    margin-top: -1.1%;
+    margin-left: 75.85%;
+    animation: transitionIn 0.75s;
+
+}
+
+.beam h2{
+    font-size: 15px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 125px;
+    margin: 10px;
+    
+}
+
+.end{
+    margin-top: -1.1%;
+    margin-left: 82.5%;
+    animation: transitionIn 0.75s;
+}
+
+.end h2{
+    font-size: 15px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 125px;
+    margin: 10px;
+    
+}
+
+
+.nyh-pfp{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform .7s ease-in-out;
+ 
+}
+
+.nyh-pfp:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+
+}
+
+.oxy-pfp{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+
+ 
+}
+.oxy-pfp:hover{
+    cursor: pointer;
+
+}
+
+.beam-pfp{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+ 
+}
+
+.beam-pfp:hover{
+    cursor: pointer;
+}
+
+.end-pfp{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.end-pfp:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.crew h1{
+    font-size: 50px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    letter-spacing: 1px;   
+}
+
+.info h2{
+    font-size: 35px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    letter-spacing: 1px;
+}
+
+.info p{
+    font-size: 20px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.icons{
+    display: flex;
+    margin: 20px 15%;
+    cursor: pointer;
+}
+
+.icons li{
+    list-style: none;
+    width: 50px;
+}
+
+.icons a{
+    color: #fff;
+    width: 50px;
+    font-size: 22px;
+    transition: .3s linear;
+}
+
+.icons a:hover{
+    color: #9348c2;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border: 2px solid #9348c2;
+    color: white;
+    background-color: transparent;
+    border-radius: 25px;
+    box-shadow: inset 0 0 0 0 #9348c2;
+    transition: ease-out 0.5s;
+    font-family: 'Gilroy-Regular', sans-serif;
+    outline: none;
+    margin: 20px 15%;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: inset 200px 0 0 0 #9348c2;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
